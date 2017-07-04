@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:background="@drawable/bus_end"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    android:paddingRight="16dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="OPTIMAL BUS AVAILABLE"
+        android:gravity="center"
+        android:id="@+id/tv1"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Departure Time"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/tv1"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrival Time"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_below="@+id/tv2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="48dp"
+        android:layout_alignEnd="@+id/tv2" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv2"
+        android:layout_below="@+id/tv3"
+        android:layout_marginTop="48dp"
+        android:text="Leave From"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:layout_alignEnd="@+id/tv3"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv4"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="50dp"
+        android:textColor="#000000"
+        android:text="Reach To"
+        android:gravity="left"
+        android:layout_alignEnd="@+id/tv4"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             "
+        android:gravity="right"
+        android:layout_alignTop="@+id/tv2"
+        android:textColor="#000000"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="             "
+        android:gravity="right"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/tv3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textColor="#000000"
+        android:gravity="right"
+        android:layout_alignTop="@+id/tv4"
+        android:text="             "  />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="             "
+        android:gravity="right"
+        android:layout_alignTop="@+id/tv5"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv10"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="bus name"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Stoppage"
+
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_below="@+id/tv5"
+        android:layout_alignRight="@+id/tv5"
+        android:layout_alignEnd="@+id/tv5"
+        android:layout_marginTop="39dp" />
+
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tv9"
+        android:textColor="#000000"
+        android:gravity="right"
+        android:layout_alignTop="@+id/tv11"
+        android:text="             " />
+
+    <TextView
+        android:id="@+id/tv13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#E92025"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Contact: jayeshkumar306@gmail.com"
+        android:gravity="center"/>
+
+</RelativeLayout>
